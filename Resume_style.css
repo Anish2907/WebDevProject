@@ -1,0 +1,245 @@
+body{
+    margin: 0px;
+    overflow-x: hidden;
+   
+    /* background-color: rgb(251, 247, 238); */
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-heading{
+    width: auto;
+    padding: 20px 10px 10px;
+}
+.section-heading span{
+    color: rgb(4, 4, 161);
+    display: inline-block;
+    padding: 10px;
+    font-size: 35px;
+}
+
+/*head section*/
+.body-header{
+    height: 60vh;
+    width: 100%;
+    background-image: url(aesthetic-leaf-watercolor-background-orange-autumn-season.jpg);
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    background-attachment: fixed;
+}
+.body-header nav{
+    text-align: center;
+}
+.body-header nav a{
+    margin-right: 20px;
+    color:rgb(88,155,6);
+    text-decoration: none;
+    font-size: 23px;
+    letter-spacing: 1px;
+}   
+.body-header nav a:hover{
+    color:rgb(6, 146, 113);
+    text-decoration: underline;
+    transition: color 0.3s , text-decoration 3s;
+}
+.body-header #name{
+    color:rgb(88, 155, 6);
+    font-size: 60px;
+    text-align: center;
+    margin-top: 90px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+}
+.body-header #social-links{
+    text-align: center;
+    margin-top: -40px;
+}
+.body-header #social-links a i{
+   padding: 15px;
+   font-size: 30px;
+}
+
+/*about section*/
+#about{
+    height: auto;
+    width: 100%;
+}
+#about image{
+    height: 100%;
+    width: 100%;
+}
+#my-image{
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    margin-top: -100px;
+    /* border: 3px solid  rgb(248, 223, 162); */
+    box-shadow: 0px 0px 8px 5px rgb(248, 219, 146);
+}
+#about #about-content{
+    font-size: 19px;
+    color: rgb(75, 74, 74);
+    text-align:justify;
+    padding-left: 216px;
+    padding-right: 195px;
+}
+#about-content .alter{
+    color: rgb(6, 86, 123);
+}
+
+/*skills section*/
+.skills-display{
+    height: auto;
+    width: 70%;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 40px;
+    margin-top: 30px;
+    /* background-color: aliceblue; */
+    border-radius: 8px;
+}
+.skill-progress{
+    height: 25px;
+    width: 20%;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: lightgray;
+    border: none;
+    border-radius: 13px;
+}
+.skill-progress #cpp-progress{
+    height: 100%;
+    width: 80%;
+    border-radius:20px;
+    background-color: rgb(5, 86, 179);
+    color: white;
+    margin-top: -16px;
+}
+.skill-progress #cpp-progress p{
+    padding-top: 3px;
+    padding-left: 12px;
+    font-family:monospace;
+    font-size: large;
+}
+.skill-progress #html-progress{
+    height: 100%;
+    width: 68%;
+    border-radius:20px;
+    background-color: rgb(241, 149, 9);
+    color: white;
+    margin-top: -16px;
+}
+.skill-progress #html-progress p{
+    padding-top: 3px;
+    padding-left: 12px;
+    font-family:monospace;
+    font-size: large;
+}
+.skill-progress #css-progress{
+    height: 100%;
+    width: 58%;
+    border-radius:20px;
+    background-color:rgba(165, 42, 147, 0.463);
+    color: white;
+    margin-top: -16px;
+}
+.skill-progress #css-progress p{
+    padding-top: 3px;
+    padding-left: 12px;
+    font-family:monospace;
+    font-size: large;
+}
+.skill-progress #js-progress{
+    height: 100%;
+    width: 28%;
+    border-radius:20px;
+    background-color:rgba(4, 58, 17, 0.733);
+    color: white;
+    margin-top: -16px;
+}
+.skill-progress #js-progress p{
+    padding-top: 3px;
+    padding-left: 12px;
+    font-family:monospace;
+    font-size: large;
+}
+.skill-progress #java-progress{
+    height: 100%;
+    width: 50%;
+    border-radius:20px;
+    background-color: rgba(165, 42, 147, 0.463);
+    color: white;
+    margin-top: -16px;
+}
+.skill-progress #java-progress p{
+    padding-top: 3px;
+    padding-left: 12px;
+    font-family:monospace;
+    font-size: large;
+}
+.skill-progress #android-progress{
+    height: 100%;
+    width: 50%;
+    border-radius:20px;
+    background-color: rgb(4, 58, 17,0.773);
+    color: white;
+    margin-top: -16px;
+}
+.skill-progress #android-progress p{
+    padding-top: 3px;
+    padding-left: 12px;
+    font-family:monospace;
+    font-size: large;
+}
+
+/*contact-section*/
+
+#contact-body{
+    margin-top: 60px;
+    height: fit-content;
+    width: 100%;
+    padding-bottom: 40px;
+    background: linear-gradient(to top right, blue,rgb(101, 3, 101) 76%);
+}
+.contact-heading{
+    font-size: 35px;
+    margin-left: 212px;
+}
+.user-info{
+    margin-top: 80px;
+    margin-left: 180px;
+    width: 33%;
+    padding-bottom: 42px;
+    border-right: 2px solid violet;
+}
+.user-info input{
+    border: none;
+    /* box-sizing: border-box; */
+    margin-bottom: 12px;
+    width: 300px;
+    background-color:transparent;
+    border-bottom: 2px solid violet;
+}
+.user-info textarea{
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid violet;
+}
+.user-info button{
+    background-color: rgb(123, 23, 217);
+    color: white;
+    border: none;
+    padding: 5px 15px ;
+    border-radius: 3px;
+}
